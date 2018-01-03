@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity{
         button23 = (Button)findViewById(R.id.activity_23);
         button24 = (Button)findViewById(R.id.activity_24);
 
+
         button1.setOnClickListener(button1oncliclistener);
         button2.setOnClickListener(button2oncliclistener);
     }
