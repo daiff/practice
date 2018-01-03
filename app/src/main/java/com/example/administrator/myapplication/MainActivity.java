@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity{
 
         button1.setOnClickListener(button1oncliclistener);
         button2.setOnClickListener(button2oncliclistener);
+        button3.setOnClickListener(button3oncliclistener);
     }
     View.OnClickListener button1oncliclistener = new OnClickListener() {
         @Override
@@ -83,6 +84,14 @@ public class MainActivity extends AppCompatActivity{
         }
     };
     View.OnClickListener button2oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,radioActivity.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button3oncliclistener = new OnClickListener() {
         @Override
         public void onClick(View v) {
             Intent intent = new Intent();
