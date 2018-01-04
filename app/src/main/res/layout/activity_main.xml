@@ -26,7 +26,7 @@
           android:id="@+id/activity_3"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="复选框"/>
       <Button
           android:id="@+id/activity_4"
           android:layout_width="wrap_content"

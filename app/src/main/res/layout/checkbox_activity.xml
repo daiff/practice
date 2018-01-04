@@ -8,19 +8,20 @@
         android:text="多选框，选择的内容展示在textview中"/>
 
     <CheckBox
-        android:text="CheckBox"
+        android:text="111"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox" />
+        android:id="@+id/checkBox"
+        />
 
     <CheckBox
-        android:text="CheckBox"
+        android:text="222"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/checkBox2" />
 
     <CheckBox
-        android:text="CheckBox"
+        android:text="333"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/checkBox3" />
