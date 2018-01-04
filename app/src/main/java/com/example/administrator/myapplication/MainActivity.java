@@ -75,6 +75,8 @@ public class MainActivity extends AppCompatActivity{
         button3.setOnClickListener(button3oncliclistener);
         button4.setOnClickListener(button4oncliclistener);
         button5.setOnClickListener(button5oncliclistener);
+        button6.setOnClickListener(button6oncliclistener);
+        button7.setOnClickListener(button7oncliclistener);
     }
     View.OnClickListener button1oncliclistener = new OnClickListener() {
         @Override
@@ -113,6 +115,22 @@ public class MainActivity extends AppCompatActivity{
         public void onClick(View v) {
             Intent intent = new Intent();
             intent.setClass(MainActivity.this,cehua.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button6oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,scroll.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button7oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,xiancheng.class);
             startActivity(intent);
         }
     };

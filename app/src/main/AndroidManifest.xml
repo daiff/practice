@@ -22,6 +22,8 @@
         <activity android:name=".checkbox" />
         <activity android:name=".TouchEvent" />
         <activity android:name=".cehua" />
+        <activity android:name=".scroll" />
+        <activity android:name=".xiancheng" />
     </application>
 
 </manifest>
