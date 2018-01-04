@@ -20,6 +20,8 @@
         <activity android:name=".adapterActivity" />
         <activity android:name=".radioActivity" />
         <activity android:name=".checkbox" />
+        <activity android:name=".TouchEvent" />
+        <activity android:name=".cehua" />
     </application>
 
 </manifest>

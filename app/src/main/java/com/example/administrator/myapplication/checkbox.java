@@ -59,7 +59,7 @@ public class checkbox extends Activity{
                     chnage1(str,isChecked);
                     break;
             }
-            text.setText(stringBuilder.toString());
+            text.setText(stringBuilder);
         }
 
         private void chnage1(String str,boolean isChecked){

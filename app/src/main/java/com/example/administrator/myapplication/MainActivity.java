@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -74,6 +73,8 @@ public class MainActivity extends AppCompatActivity{
         button1.setOnClickListener(button1oncliclistener);
         button2.setOnClickListener(button2oncliclistener);
         button3.setOnClickListener(button3oncliclistener);
+        button4.setOnClickListener(button4oncliclistener);
+        button5.setOnClickListener(button5oncliclistener);
     }
     View.OnClickListener button1oncliclistener = new OnClickListener() {
         @Override
@@ -96,6 +97,22 @@ public class MainActivity extends AppCompatActivity{
         public void onClick(View v) {
             Intent intent = new Intent();
             intent.setClass(MainActivity.this,checkbox.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button4oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,TouchEvent.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button5oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,cehua.class);
             startActivity(intent);
         }
     };

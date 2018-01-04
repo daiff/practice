@@ -31,7 +31,7 @@
           android:id="@+id/activity_4"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="触屏事件"/>
    </LinearLayout>
 
    <LinearLayout
@@ -43,7 +43,7 @@
        android:id="@+id/activity_5"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="你好"/>
+       android:text="侧滑"/>
    <Button
        android:id="@+id/activity_6"
        android:layout_width="wrap_content"
