@@ -58,7 +58,7 @@
        android:id="@+id/activity_8"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="你好"/>
+       android:text="xml解析"/>
    </LinearLayout>
    <LinearLayout
        android:gravity="center"

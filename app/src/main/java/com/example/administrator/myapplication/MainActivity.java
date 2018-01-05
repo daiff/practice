@@ -10,30 +10,9 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity{
-    private Button button1;
-    private Button button2;
-    private Button button3;
-    private Button button4;
-    private Button button5;
-    private Button button6;
-    private Button button7;
-    private Button button8;
-    private Button button9;
-    private Button button10;
-    private Button button11;
-    private Button button12;
-    private Button button13;
-    private Button button14;
-    private Button button15;
-    private Button button16;
-    private Button button17;
-    private Button button18;
-    private Button button19;
-    private Button button20;
-    private Button button21;
-    private Button button22;
-    private Button button23;
-    private Button button24;
+    private Button button1, button2, button3,button4, button5,button6,button7,button8,
+            button9, button10, button11, button12, button13, button14,button15, button16,
+            button17,button18, button19, button20,button21,button22,button23, button24;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -77,6 +56,7 @@ public class MainActivity extends AppCompatActivity{
         button5.setOnClickListener(button5oncliclistener);
         button6.setOnClickListener(button6oncliclistener);
         button7.setOnClickListener(button7oncliclistener);
+        button8.setOnClickListener(button8oncliclistener);
     }
     View.OnClickListener button1oncliclistener = new OnClickListener() {
         @Override
@@ -131,6 +111,14 @@ public class MainActivity extends AppCompatActivity{
         public void onClick(View v) {
             Intent intent = new Intent();
             intent.setClass(MainActivity.this,xiancheng.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button8oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,xml.class);
             startActivity(intent);
         }
     };

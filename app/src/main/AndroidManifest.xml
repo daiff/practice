@@ -24,6 +24,7 @@
         <activity android:name=".cehua" />
         <activity android:name=".scroll" />
         <activity android:name=".xiancheng" />
+        <activity android:name=".xml" />
     </application>
 
 </manifest>
