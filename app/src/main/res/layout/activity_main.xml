@@ -69,22 +69,22 @@
           android:id="@+id/activity_9"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="下拉列表"/>
       <Button
           android:id="@+id/activity_10"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="时间选择接口"/>
       <Button
           android:id="@+id/activity_11"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="时间选择"/>
       <Button
           android:id="@+id/activity_12"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="下拉选择框"/>
    </LinearLayout>
    <LinearLayout
        android:gravity="center"
@@ -95,12 +95,12 @@
           android:id="@+id/activity_13"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="bmoblist"/>
       <Button
           android:id="@+id/activity_14"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="你好"/>
+          android:text="旅行青蛙🐸"/>
       <Button
           android:id="@+id/activity_15"
           android:layout_width="wrap_content"

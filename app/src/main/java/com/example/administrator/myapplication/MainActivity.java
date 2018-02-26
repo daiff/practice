@@ -57,6 +57,12 @@ public class MainActivity extends AppCompatActivity{
         button6.setOnClickListener(button6oncliclistener);
         button7.setOnClickListener(button7oncliclistener);
         button8.setOnClickListener(button8oncliclistener);
+        button9.setOnClickListener(button9oncliclistener);
+        button10.setOnClickListener(button10oncliclistener);
+        button11.setOnClickListener(button11oncliclistener);
+        button12.setOnClickListener(button12oncliclistener);
+        button13.setOnClickListener(button13oncliclistener);
+        button14.setOnClickListener(button14oncliclistener);
     }
     View.OnClickListener button1oncliclistener = new OnClickListener() {
         @Override
@@ -122,4 +128,53 @@ public class MainActivity extends AppCompatActivity{
             startActivity(intent);
         }
     };
+    View.OnClickListener button9oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,xiala.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button10oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,shijian.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button11oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,shijian1.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button12oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,xialaxuanze.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button13oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,bmoblist.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener button14oncliclistener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,lxqw.class);
+            startActivity(intent);
+        }
+    };
+
 }
