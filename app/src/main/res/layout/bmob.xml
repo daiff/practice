@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/bmob_yt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击获取数据一条数据"/>
+    <Button
+        android:id="@+id/bomb_jt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击获取几条数据"/>
+    <Button
+        android:id="@+id/bomb_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="增加一条数据"/>
+    <Button
+        android:id="@+id/bomb_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除一条数据"/>
+    <Button
+        android:id="@+id/bomb_gx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新一条数据"/>
+    <Button
+        android:id="@+id/bomb_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询一条数据"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmob_show"/>
+    <Button
+        android:id="@+id/bmob_kong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="置一个值为空"/>
+
+</LinearLayout>
